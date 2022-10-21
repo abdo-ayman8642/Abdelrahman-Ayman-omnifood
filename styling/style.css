@@ -35,7 +35,7 @@ header nav ul li a {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding-top: 3rem;
-  padding-bottom: 7rem;
+  padding-bottom: 9rem;
   gap: 9rem;
 }
 .hero .heading-primary {
@@ -98,4 +98,25 @@ header nav ul li a {
 }
 .delivered-text span {
   color: #cf711f;
+}
+.section-featured {
+  filter: brightness(0);
+  opacity: 50%;
+  padding-bottom: 13rem;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.heading-featured-in {
+  text-align: center;
+  padding: 5rem 0 2rem 0;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.logos > * {
+  height: 3.2rem;
 }
