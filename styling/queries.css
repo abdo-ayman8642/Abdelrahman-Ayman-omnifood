@@ -1,0 +1,235 @@
+@media (max-width: 1258px) {
+  html {
+    font-size: 9.5px;
+  }
+  .heading-primary {
+    font-size: 4.7rem !important;
+  }
+  .testimonials-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media (max-width: 1130px) {
+  html {
+    font-size: 8.5px;
+  }
+  .heading-primary {
+    font-size: 4.4rem !important;
+  }
+}
+@media (max-width: 1082px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 940px) {
+  html {
+    font-size: 7.5px;
+  }
+  .main-nav {
+    display: none;
+  }
+  .btn-mobile-nav {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+  }
+  .icon-mobile-nav[name="close-outline"] {
+    display: none;
+  }
+  :host .ionicon {
+    stroke: currentcolor;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    gap: 4rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .delivered-meals {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .btn {
+    margin-bottom: 3rem;
+  }
+  #testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .logos {
+    font-size: 8px;
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .container-meals {
+    column-gap: 5rem;
+  }
+}
+@media (max-width: 840px) {
+  .logos {
+    font-size: 6px;
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+}
+@media (max-width: 704px) {
+  html {
+    font-size: 7.5px;
+  }
+  .hero {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .container-meals {
+    grid-template-columns: 1fr 1fr;
+  }
+  .diets {
+    padding-top: 8rem;
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  .container-feature {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .container-footer {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 7rem;
+  }
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+  .footer-logo {
+    margin-bottom: 5rem;
+  }
+}
+@media (max-width: 544px) {
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .step-img {
+    height: 48rem;
+  }
+  .hero {
+    padding: 2rem 3rem;
+    gap: 4rem;
+  }
+  .hero-img {
+    width: 75%;
+  }
+  .logos img {
+    height: 1.2rem;
+  }
+  .container-how {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .testimonials-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .heading-secondary {
+    margin-bottom: 5rem;
+  }
+  .container-pricing {
+    flex-direction: column;
+  }
+  .pricing-plan {
+    align-self: center;
+    width: 68rem;
+  }
+  .reorder-1 {
+    order: 1;
+  }
+  .reorder-2 {
+    order: 2;
+  }
+  .reorder-3 {
+    order: 3;
+  }
+  .reorder-4 {
+    order: 4;
+  }
+  .reorder-5 {
+    order: 5;
+  }
+  .reorder-6 {
+    order: 6;
+  }
+  .container-meals {
+    grid-template-columns: 1fr;
+  }
+  .meal {
+    margin-bottom: 5rem;
+  }
+  .diets {
+    padding-top: 4rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .container-feature {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 4.8rem;
+    row-gap: 4rem;
+  }
+  .plan-details {
+    padding: 0 2rem;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40rem 1fr;
+  }
+  .reorder-cta-img {
+    order: 1;
+    background-position: 50% 30%;
+  }
+  .reorder-cta-text {
+    order: 2;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .cta-text-box {
+    padding: 4.8rem 4rem 3rem 4rem;
+  }
+  .btn--form {
+    margin-top: 2rem !important;
+    padding: 2.6rem 2rem;
+  }
+}

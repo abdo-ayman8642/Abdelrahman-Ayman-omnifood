@@ -85,6 +85,9 @@ header nav ul li a {
   align-items: center;
   gap: 1.7rem;
 }
+.delivered-imgs {
+  display: flex;
+}
 .delivered-imgs img {
   border: solid 3px #fdf2e9;
 }
@@ -418,9 +421,9 @@ header nav ul li a {
   color: #555;
 }
 .container-feature {
-  display: flex;
-  justify-content: center;
-  gap: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 6.4rem;
 }
 .feature-icon {
   color: #e67e22;
